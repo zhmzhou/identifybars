@@ -1,4 +1,4 @@
-# identification of galactic bars in DESI LS images
+# Identification of galactic bars in DESI LS images
 Python tool for identifing stellar bars in galaxies based on the isophotal analysis and radial profiles from DESI Legacy Imaging Surveys. The tool contains the code developed for te article Wang & Zhou, 2025, in prep. .
 
 The key parameters for identifying galactic bars include ellipticity, position angle, and their respective variations. Wozniak et al. (1995) demonstrated that bars are typically characterized by an increase in ellipticity and a nearly constant PA.  According to these criteria, we define a bar as follows: First, within the bar-dominated region, ellipticity (e) should gradually increase, reaching a peak value (e_max) greater than 0.25, while the PA remains relatively stable, varying by no more than $20^{\circ}$. Second, at the end of the bar, ellipticity must decrease by at least 0.1 from the peak value, and the PA should show a change of more than 5 deg. The bar length, $R_{b}^0$, is defined as the semi-major axis length corresponding to e_max, representing the observed bar ellipticity.
